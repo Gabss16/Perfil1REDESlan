@@ -1,0 +1,39 @@
+1-Los elementos pasivos de una red son aquellos componentes que no generan o transmiten información activamente, es decir, no son responsables de enviar o recibir datos. Aunque no son tan activos como otros elementos de la red, como routers o servidores, los elementos pasivos son fundamentales para el funcionamiento de la red. Un ejemplo de elementos pasivos es un cable Ethernet, que conecta dos dispositivos para permitir la transmisión de datos.
+
+2-
+1. RJ45
+ El RJ45 es un conector estándar utilizado en redes Ethernet para conectar cables de red a dispositivos de red. Este conector tiene 8 pines que permiten la transmisión de datos a través de cables de par trenzado.
+2. Jacks o Keystone
+ Un jack o keystone es una placa de montaje que se usa para instalar conectores de red en una pared, paneles o cuadros de distribución. Permite conectar cables de red con facilidad y organiza el cableado.
+3. Cable UTP (Unshielded Twisted Pair)
+   El cable UTP es un tipo de cable de par trenzado sin blindaje utilizado para redes Ethernet. Consiste en cuatro pares de cables trenzados que ayudan a reducir la interferencia electromagnética.
+ 4. Patch Panel
+ El patch panel es un panel de conexiones donde se agrupan múltiples cables de red en un solo lugar. Facilita la gestión del cableado y la conexión de los cables de red a equipos de red.
+5. Patch Cord
+El patch cord es un cable corto utilizado para conectar dispositivos a un patch panel, switch o router. Suele ser flexible y viene con conectores RJ45 en ambos extremos.
+
+
+6. Fibra Óptica
+ La fibra óptica es un medio de transmisión de datos que utiliza hilos de vidrio o plástico para transmitir señales de luz. Ofrece alta velocidad y gran ancho de banda, ideal para distancias largas y alta calidad de señal.
+ 7. Canaletas
+ Los candletos, también conocidos como candelabros de cable, son accesorios que se utilizan para organizar y mantener los cables en su lugar. Ayudan a evitar enredos y daños en el cableado.
+3- Componentes Activos
+
+
+
+
+4-
+1. Switch
+ Un switch de red es un dispositivo que conecta múltiples dispositivos en una red, permitiendo la comunicación entre ellos. Opera en la capa 2 del modelo OSI y gestiona el tráfico de red para optimizar el rendimiento.
+2.Router de Red
+ Un router de red dirige el tráfico de datos entre diferentes redes y gestiona las conexiones entre la red local y la red externa, como Internet. Puede realizar funciones de NAT y DHCP.
+
+
+3. Interruptor Inteligente Wi-Fi
+ Un interruptor inteligente Wi-Fi permite controlar dispositivos eléctricos a través de una red Wi-Fi. Puede ser programado y controlado mediante aplicaciones móviles o asistentes de voz.
+4. Access Point (Punto de Acceso)
+ Un access point extiende la cobertura de una red Wi-Fi y permite que los dispositivos se conecten a una red inalámbrica. Funciona como un puente entre la red cableada y los dispositivos inalámbricos.
+
+
+5. tarjeta de red 
+
