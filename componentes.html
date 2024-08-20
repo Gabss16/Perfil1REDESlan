@@ -3,215 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>componentes</title>
+    <title>Componentes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .card-img-top, .card-img-bottom {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .card {
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="RedesGaby.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/componentes.html">Componentes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/herramientas.html">Herramientas</a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cableado
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../Perfil1REDESlan/vertical y horizontal.html">Vertical y Horizontal </a></li>
-                    <li><a class="dropdown-item" href="../Perfil1REDESlan/tipos de cable.html">Tipos de cable para sitema horizontal</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="../Perfil1REDESlan/normativa.html">Normativa</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/directo y cruzado.html">Cable directo y Cruzado</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/pabellon.html">Laboratorio</a>
-                </li>
-              </ul>
-              
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="RedesGaby.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/componentes.html">Componentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/herramientas.html">Herramientas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cableado
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Perfil1REDESlan/vertical y horizontal.html">Vertical y Horizontal</a></li>
+                            <li><a class="dropdown-item" href="../Perfil1REDESlan/tipos de cable.html">Tipos de cable para sistema horizontal</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../Perfil1REDESlan/normativa.html">Normativa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/directo y cruzado.html">Cable directo y Cruzado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Perfil1REDESlan/pabellon.html">Laboratorio</a>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </div>
     </nav>
 
-    <div class="card text-center">
+    <div class="card text-center mb-4">
         <div class="card-header">
-         <h1>COMPONENTES LAN</h1> 
+            <h1>COMPONENTES LAN</h1> 
         </div>
         <div class="card-body">
-          <h5 class="card-title">componentes pasivos</h5>
-          <p class="card-text">Los elementos pasivos de una red son aquellos componentes que no generan o transmiten información activamente, es decir, no son responsables de enviar o recibir datos. Aunque no son tan activos como otros elementos de la red, como routers o servidores, los elementos pasivos son fundamentales para el funcionamiento de la red. Un ejemplo de elementos pasivos es un cable Ethernet, que conecta dos dispositivos para permitir la transmisión de datos.</p>
-          <a href="#" class="btn btn-primary"></a>
+            <h5 class="card-title">Componentes Pasivos</h5>
+            <p class="card-text">Los elementos pasivos de una red son aquellos componentes que no generan o transmiten información activamente, es decir, no son responsables de enviar o recibir datos. Aunque no son tan activos como otros elementos de la red, como routers o servidores, los elementos pasivos son fundamentales para el funcionamiento de la red. Un ejemplo de elementos pasivos es un cable Ethernet, que conecta dos dispositivos para permitir la transmisión de datos.</p>
         </div>
-        <div class="card-footer text-body-secondary">
-        
-        </div>
-      </div>
+        <div class="card-footer text-body-secondary"></div>
+    </div>
+
     <div class="container text-center">
-        <div class="row row-cols-2">
-          <div class="col">
-            <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">RJ45</h5>
-                  <p class="card-text">El RJ45 es un conector estándar utilizado en redes Ethernet para conectar cables de red a dispositivos de red. Este conector tiene 8 pines que permiten la transmisión de datos a través de cables de par trenzado.</p>
-                  
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/1.jpeg" class="card-img-top" alt="RJ45">
+                    <div class="card-body">
+                        <h5 class="card-title">RJ45</h5>
+                        <p class="card-text">El RJ45 es un conector estándar utilizado en redes Ethernet para conectar cables de red a dispositivos de red. Este conector tiene 8 pines que permiten la transmisión de datos a través de cables de par trenzado.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">KEYSTONE</h5>
-                  <p class="card-text">Un jack o keystone es una placa de montaje que se usa para instalar conectores de red en una pared, paneles o cuadros de distribución. Permite conectar cables de red con facilidad y organiza el cableado.</p>
-                 
-                </div>
-                <img src="../Perfil1REDESlan/img/2.jpeg" class="card-img-bottom" alt="...">
-              </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/3.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Patch Panel</h5>
-                  <p class="card-text">El patch panel es un panel de conexiones donde se agrupan múltiples cables de red en un solo lugar. Facilita la gestión del cableado y la conexión de los cables de red a equipos de red.</p>
-                
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/2.jpeg" class="card-img-top" alt="Keystone">
+                    <div class="card-body">
+                        <h5 class="card-title">KEYSTONE</h5>
+                        <p class="card-text">Un jack o keystone es una placa de montaje que se usa para instalar conectores de red en una pared, paneles o cuadros de distribución. Permite conectar cables de red con facilidad y organiza el cableado.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Cable UTP</h5>
-                  <p class="card-text">El cable UTP es un tipo de cable de par trenzado sin blindaje utilizado para redes Ethernet. Consiste en cuatro pares de cables trenzados que ayudan a reducir la interferencia electromagnética.</p>
-                 
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/3.jpeg" class="card-img-top" alt="Patch Panel">
+                    <div class="card-body">
+                        <h5 class="card-title">Patch Panel</h5>
+                        <p class="card-text">El patch panel es un panel de conexiones donde se agrupan múltiples cables de red en un solo lugar. Facilita la gestión del cableado y la conexión de los cables de red a equipos de red.</p>
+                    </div>
                 </div>
-                <img src="../Perfil1REDESlan/img/4.jpeg" class="card-img-bottom" alt="...">
-              </div>
+            </div>
 
-
-          </div>
-          <div class="col">
-            <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/5.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Patch CORD</h5>
-                  <p class="card-text">El patch cord es un cable corto utilizado para conectar dispositivos a un patch panel, switch o router. Suele ser flexible y viene con conectores RJ45 en ambos extremos.</p>
-                 
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/4.jpeg" class="card-img-top" alt="Cable UTP">
+                    <div class="card-body">
+                        <h5 class="card-title">Cable UTP</h5>
+                        <p class="card-text">El cable UTP es un tipo de cable de par trenzado sin blindaje utilizado para redes Ethernet. Consiste en cuatro pares de cables trenzados que ayudan a reducir la interferencia electromagnética.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Fibra Óptica</h5>
-                  <p class="card-text">La fibra óptica es un medio de transmisión de datos que utiliza hilos de vidrio o plástico para transmitir señales de luz. Ofrece alta velocidad y gran ancho de banda, ideal para distancias largas y alta calidad de señal.</p>
-                
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/5.jpeg" class="card-img-top" alt="Patch Cord">
+                    <div class="card-body">
+                        <h5 class="card-title">Patch Cord</h5>
+                        <p class="card-text">El patch cord es un cable corto utilizado para conectar dispositivos a un patch panel, switch o router. Suele ser flexible y viene con conectores RJ45 en ambos extremos.</p>
+                    </div>
                 </div>
-                <img src="../Perfil1REDESlan/img/6.jpeg" class="card-img-bottom" alt="...">
-              </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/7.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Canaletas</h5>
-                  <p class="card-text">Los candletos, también conocidos como candelabros de cable, son accesorios que se utilizan para organizar y mantener los cables en su lugar. Ayudan a evitar enredos y daños en el cableado.</p>
-                 
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/6.jpeg" class="card-img-top" alt="Fibra Óptica">
+                    <div class="card-body">
+                        <h5 class="card-title">Fibra Óptica</h5>
+                        <p class="card-text">La fibra óptica es un medio de transmisión de datos que utiliza hilos de vidrio o plástico para transmitir señales de luz. Ofrece alta velocidad y gran ancho de banda, ideal para distancias largas y alta calidad de señal.</p>
+                    </div>
                 </div>
-              </div>
-              
+            </div>
 
-
-          </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/7.jpeg" class="card-img-top" alt="Canaletas">
+                    <div class="card-body">
+                        <h5 class="card-title">Canaletas</h5>
+                        <p class="card-text">Los canaletas, también conocidos como candelabros de cable, son accesorios que se utilizan para organizar y mantener los cables en su lugar. Ayudan a evitar enredos y daños en el cableado.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <BR>
-        <br>
-        <br>
-        <br>
-        <br>
+    <br><br><br><br><br>
 
-
-      <div class="card text-center">
-        
+    <div class="card text-center mb-4">
         <div class="card-body">
-          <h5 class="card-title">componentes ACTIVOS</h5>
-          <p class="card-text">Son aquellos dispositivos o equipos que se encargan de distribuir en forma activa la información a través de la red, como concentradores, access point, switches, router, entre otros. Además, se encargan de distribuir banda ancha a determinada cantidad de equipos en una red.</p>
-          <a href="#" class="btn btn-primary"></a>
+            <h5 class="card-title">Componentes Activos</h5>
+            <p class="card-text">Son aquellos dispositivos o equipos que se encargan de distribuir en forma activa la información a través de la red, como concentradores, access point, switches, router, entre otros. Además, se encargan de distribuir banda ancha a determinada cantidad de equipos en una red.</p>
         </div>
-        <div class="card-footer text-body-secondary">
-         
-        </div>
-      </div>
+        <div class="card-footer text-body-secondary"></div>
+    </div>
+
     <div class="container text-center">
-        <div class="row row-cols-2">
-          <div class="col">
-            <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/8.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Switch</h5>
-                  <p class="card-text">Un switch de red es un dispositivo que conecta múltiples dispositivos en una red, permitiendo la comunicación entre ellos. Opera en la capa 2 del modelo OSI y gestiona el tráfico de red para optimizar el rendimiento.</p>
-                  
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/8.jpeg" class="card-img-top" alt="Switch">
+                    <div class="card-body">
+                        <h5 class="card-title">Switch</h5>
+                        <p class="card-text">Un switch de red es un dispositivo que conecta múltiples dispositivos en una red, permitiendo la comunicación entre ellos. Opera en la capa 2 del modelo OSI y gestiona el tráfico de red para optimizar el rendimiento.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Router de Red</h5>
-                  <p class="card-text">                Un router de red dirige el tráfico de datos entre diferentes redes y gestiona las conexiones entre la red local y la red externa, como Internet. Puede realizar funciones de NAT y DHCP.</p>
-                  
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/9.jpeg" class="card-img-top" alt="Router de Red">
+                    <div class="card-body">
+                        <h5 class="card-title">Router de Red</h5>
+                        <p class="card-text">Un router de red dirige el tráfico de datos entre diferentes redes y gestiona las conexiones entre la red local y la red externa, como Internet. Puede realizar funciones de NAT y DHCP.</p>
+                    </div>
                 </div>
-                <img src="../Perfil1REDESlan/img/9.jpeg" class="card-img-bottom" alt="...">
-              </div>
+            </div>
 
-              <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/10.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Interruptor Inteligente Wi-Fi</h5>
-                  <p class="card-text">Un interruptor inteligente Wi-Fi permite controlar dispositivos eléctricos a través de una red Wi-Fi. Puede ser programado y controlado mediante aplicaciones móviles o asistentes de voz.</p>
-                
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/10.jpeg" class="card-img-top" alt="Interruptor Inteligente Wi-Fi">
+                    <div class="card-body">
+                        <h5 class="card-title">Interruptor Inteligente Wi-Fi</h5>
+                        <p class="card-text">Un interruptor inteligente Wi-Fi permite controlar dispositivos eléctricos a través de una red Wi-Fi. Puede ser programado y controlado mediante aplicaciones móviles o asistentes de voz.</p>
+                    </div>
                 </div>
-              </div>
-              
+            </div>
 
-
-          </div>
-          <div class="col">
-            <div class="card mb-3">
-                <img src="../Perfil1REDESlan/img/11.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Access Point</h5>
-                  <p class="card-text">Un access point extiende la cobertura de una red Wi-Fi y permite que los dispositivos se conecten a una red inalámbrica. Funciona como un puente entre la red cableada y los dispositivos inalámbricos.</p>
-  
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/11.jpeg" class="card-img-top" alt="Access Point">
+                    <div class="card-body">
+                        <h5 class="card-title">Access Point</h5>
+                        <p class="card-text">Un access point extiende la cobertura de una red Wi-Fi y permite que los dispositivos se conecten a una red inalámbrica. Funciona como un puente entre la red cableada y los dispositivos inalámbricos.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">tarjeta de red </h5>
-                  <p class="card-text">una tarjeta de red es un componente que permite a la computadora comunicarse a través de una red. Este componente es frecuentemente incorporado en la placa en las computadoras actuales, pero también puede ser una tarjeta separada para su uso en una ranura PCI, o parte de una unidad externa que se conecte al ordenador mediante un puerto USB. </p>
-                
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="../Perfil1REDESlan/img/13.jpeg" class="card-img-top" alt="Tarjeta de Red">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta de Red</h5>
+                        <p class="card-text">Una tarjeta de red es un componente que permite a la computadora comunicarse a través de una red. Este componente es frecuentemente incorporado en la placa en las computadoras actuales, pero también puede ser una tarjeta separada para su uso en una ranura PCI, o parte de una unidad externa que se conecte al ordenador mediante un puerto USB.</p>
+                    </div>
                 </div>
-                <img src="../Perfil1REDESlan/img/13.jpeg" class="card-img-bottom" alt="...">
-              </div>
-
-              
-              
-
-
-          </div>
+            </div>
         </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+      <div class="container">
+          <div class="row">
+              <!-- Espacio para nombre -->
+              <div class="col-md-4 mb-3">
+                  <h5>Gabriela Michelle P.</h5>
+              </div>
+              <!-- Sección 2B -->
+              <div class="col-md-4 mb-3">
+                  <h5>Desarrollo de software 2B</h5>
+                  <p></p>
+              </div>
+              <!-- Bibliografía de sitios web -->
+              <div class="col-md-4 mb-3">
+                  <h5>Bibliografía</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="https://www.netacad.com/" class="text-white">Cisco Networking Academy</a></li>
+                      <li><a href="https://www.comptia.org/certifications/network" class="text-white">CompTIA Network+</a></li>
+                      <li><a href="https://computer.howstuffworks.com/networking.htm" class="text-white">HowStuffWorks - Networking</a></li>
+                      <li><a href="https://www.tomshardware.com/t/networking" class="text-white">Tom's Hardware - Networking</a></li>
+                      <li><a href="https://www.networkworld.com/" class="text-white">Network World</a></li>
+                  </ul>
+              </div>
+          </div>
       </div>
-
-   
-
-
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
